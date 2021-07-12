@@ -1,0 +1,13 @@
+name = "JotTest3"
+uuid = "75d5cd20-e63e-4758-9280-437cabed50f5"
+authors = ["harris-chris <chrisharriscjh@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
